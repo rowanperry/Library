@@ -1,0 +1,40 @@
+1001,The Great Gatsby,F. Scott Fitzgerald,Scribner,false
+1002,1984,George Orwell,Secker & Warburg,true
+1003,To Kill a Mockingbird,Harper Lee,J.B. Lippincott & Co,false
+1004,Pride and Prejudice,Jane Austen,T. Egerton,false
+1005,Moby-Dick,Herman Melville,Harper & Brothers,true
+1006,The Catcher in the Rye,J.D. Salinger,Little, Brown,false
+1007,Brave New World,Aldous Huxley,Chatto & Windus,true
+1008,The Hobbit,J.R.R. Tolkien,George Allen & Unwin,false
+1009,Fahrenheit 451,Ray Bradbury,Ballantine Books,false
+1010,The Odyssey,Homer,Penguin Classics,true
+1011,War and Peace,Leo Tolstoy,The Russian Messenger,false
+1012,Crime and Punishment,Fyodor Dostoevsky,The Russian Messenger,true
+1013,Jane Eyre,Charlotte Brontë,Smith, Elder & Co.,false
+1014,Wuthering Heights,Emily Brontë,Thomas Cautley Newby,true
+1015,Les Misérables,Victor Hugo,A. Lacroix & Verboeckhoven,false
+1016,Dracula,Bram Stoker,Archibald Constable & Co.,false
+1017,Frankenstein,Mary Shelley,Lackington, Hughes,true
+1018,The Picture of Dorian Gray,Oscar Wilde,Ward, Lock & Co.,false
+1019,Don Quixote,Miguel de Cervantes,Francisco de Robles,true
+1020,The Divine Comedy,Dante Alighieri,John Ciardi (trans.),false
+2001,The Alchemist,Paulo Coelho,HarperOne,false
+2002,Life of Pi,Yann Martel,Knopf Canada,true
+2003,The Book Thief,Markus Zusak,Picador,false
+2004,The Road,Cormac McCarthy,Alfred A. Knopf,true
+2005,The Kite Runner,Khaled Hosseini,Riverhead Books,false
+2006,The Girl with the Dragon Tattoo,Stieg Larsson,Norstedts Förlag,false
+2007,The Da Vinci Code,Dan Brown,Doubleday,true
+2008,Angels & Demons,Dan Brown,Pocket Books,false
+2009,The Silent Patient,Alex Michaelides,Orion Publishing,true
+2010,The Midnight Library,Matt Haig,Canongate Books,false
+2011,The Fault in Our Stars,John Green,Dutton Books,true
+2012,Looking for Alaska,John Green,Dutton Juvenile,false
+2013,A Man Called Ove,Fredrik Backman,Atria Books,false
+2014,It Ends with Us,Colleen Hoover,Atria Books,true
+2015,Verity,Colleen Hoover,Grand Central Publishing,true
+2016,Before We Were Strangers,Renée Carlino,Atria Books,false
+2017,The Seven Husbands of Evelyn Hugo,Taylor Jenkins Reid,Washington Square Press,false
+2018,Daisy Jones & The Six,Taylor Jenkins Reid,Ballantine Books,true
+2019,Project Hail Mary,Andy Weir,Ballantine Books,false
+2020,The Martian,Andy Weir,Crown Publishing,true
