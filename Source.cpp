@@ -28,8 +28,6 @@ public:
 	}
 };
 
-vector<Book> bookVec;	//vector of Book objects (doeesnt work)
-
 
 static void title(string text, bool banner) {
 	string temp = text;
@@ -55,15 +53,17 @@ static void title(string text, bool banner) {
 
 
 //FUNCTIONS DECLARED - code below main//
+Book getData(ifstream& file);
+
 bool openFile(ifstream& file);
 
 void outputFile(string fileName);
 
-void getData(ifstream& file);
-
 
 int main() {
 	//MAIN CODE BLOCK//
+	vector<Book> bookVec;	//vector of Book objects (doeesnt work)
+
 	title("  *         Library System         *  ", true);
 	string fileN = "Books.txt";
 	bool validate;
@@ -72,7 +72,11 @@ int main() {
 	myfile.open(fileN);
 	validate = openFile(myfile);
 	if (validate) {		//only runs if file opens correctly
-		getData(myfile);
+		
+		for (int i = 0;i > 40;i++) {
+			bookVec.push_back(getData(myfile));
+		}
+	
 	}
 
 }
@@ -107,23 +111,20 @@ void outputFile(string fileName) {
 }	//function outputs all contents of a file line by line, takes fstream value by refrence then outputs until it reachs the end of file
 
 
-void getData(ifstream& file) {
-	int COUNT = 0;
-	while(!file.eof()){
-		string line;
-		vector<string> data;
-		
-		getline(file, line);
-		istringstream ss(line);
-		string tmp;
+Book getData(ifstream& file) {
+	string line;
+	vector<string> data;
 
-		while (getline(ss, tmp, ',')) {
-			data.push_back(tmp);
-		}	//splits the line up into words seperated into commars in the vector
+	getline(file, line);
+	istringstream ss(line);
+	string tmp;
 
+	while (getline(ss, tmp, ',')) {
+		data.push_back(tmp);
+	}	//splits the line up into words seperated into commars in the vector
 
-	}
-
+	Book books(stoi(data[0]), data[1], data[2], data[3], data[4]);
+	return books;
 }
 
 
